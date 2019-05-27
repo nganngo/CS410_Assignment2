@@ -4,7 +4,7 @@ public class PressureSensorAdapter implements Sensor{
 
     private PressureSensor psensor;
 
-    PressureSensorAdapter(sensor.PressureSensor newPsensor){
+    PressureSensorAdapter(PressureSensor newPsensor){
             this.psensor = newPsensor;
         }
 

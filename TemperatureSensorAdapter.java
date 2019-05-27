@@ -4,7 +4,7 @@ public class TemperatureSensorAdapter implements  Sensor{
 
     private TemperatureSensor tsensor;
 
-    TemperatureSensorAdapter(sensor.TemperatureSensor newTsensor){
+    TemperatureSensorAdapter(TemperatureSensor newTsensor){
         this.tsensor = newTsensor;
     }
 
